@@ -1,6 +1,20 @@
 {
-  "name": "municipio-se/municipio-deployment-custom",
-  "license": "MIT",
-  "description": "Additions for you own install of municipo.",
-  "require": {}
+    "name": "municipio-se/municipio-deployment-custom",
+    "license": "MIT",
+    "description": "Additions for you own install of municipo.",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mange84a/algolia-index-attachments"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mange84a/modularity-operation-info"
+        }
+
+    ],
+    "require": {
+        "mange84a/algolia-index-attachments": "dev-master",
+        "mange84a/modularity-operationinfo": "dev-master"
+    }
 }

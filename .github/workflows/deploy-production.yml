@@ -13,8 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - uses: helsingborg-stad/municipio-deploy/3.0@master
+    - uses: Kreation-AB/municipio-deploy/3.0@master
       with:
         deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD }}
         deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD }}
